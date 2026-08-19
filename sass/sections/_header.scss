@@ -1,0 +1,52 @@
+@import "variables";
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.button-text {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+
+.buttons-hero {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.log-in,
+.sing-up {
+    padding: 10px 20px;
+
+    border: 2px solid;
+    border-radius: 20px;
+
+    background: transparent;
+    color: $color-bg;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header .text-hero {
+    margin: 0;
+
+    color: $color-b;
+    font-size: 20px;
+    font-weight: bold;
+}
